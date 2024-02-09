@@ -1,0 +1,72 @@
+.tree-card {
+  border: 3px solid #000;
+  margin-top: 100px;
+  margin-right: 5px;
+  text-align: center;
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+  transition: height 0.3s ease;
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.tree-card .card-content {
+  flex-grow: 1; /* Allow content to take up remaining space */
+}
+
+.tree-card.show-image {
+  height: 450px;
+}
+
+.tree-name {
+  font-size: 1.8em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 15px;
+}
+
+.tree-species {
+  font-size: 1.2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  margin-top: -20px;
+}
+
+.toggle-button {
+  border: 2px solid #000;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px 2px #000;
+  margin-bottom: 20px;
+  position: absolute;
+  bottom: 10px; /* Adjust this value based on your design */
+  left: 50%; /* Center the button horizontally */
+  transform: translateX(-50%); /* Center the button horizontally */
+}
+
+.show-button {
+  color: #000;
+  background-color: #fff;
+}
+
+.hide-button {
+  color: #fff;
+  background-color: #50cc4c;
+}
+
+.tree-image-container {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tree-image-container.visible {
+  opacity: 1;
+}
+
+.tree-image-container.hidden {
+  opacity: 0;
+  pointer-events: none; /* Disable pointer events for hidden image */
+}

@@ -1,0 +1,21 @@
+.app-header {
+  background-color: #b4b4b4;
+  padding: 10px;
+  text-align: center;
+}
+
+.app-footer {
+  background-color: #b4b4b4;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.app-main {
+  margin-bottom: 150px;
+}
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,33 @@
+.tree-list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.tree-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1130px;
+}
+/* Desktop styles - three cards in a row */
+@media (min-width: 769px) {
+  .tree-list {
+    width: 1130px;
+  }
+}
+
+/* Tablet styles - two cards in a row */
+@media (max-width: 768px) {
+  .tree-list {
+    width: 900px;
+  }
+}
+
+/* Mobile styles - one card in a row */
+@media (max-width: 500px) {
+  .tree-list {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
