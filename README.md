@@ -1,6 +1,6 @@
 # Tree Showcase Page
 
-This project is a simple tree showcase page that allows users to learn about different trees that Ecosia plants. The page is responsive and can be viewed on both desktop and mobile devices.
+This project is a simple tree showcase page that allows users to learn about different trees. The page is responsive and can be viewed on both desktop and mobile devices.
 
 ## Features
 
